@@ -1,0 +1,24 @@
+{
+  "name": "fi_goal_bot",
+  "version": "1.0.0",
+  "description": "Bot to track & update /r/financialindependence annual goals",
+  "main": "index.js",
+  "author": "GooberPooper",
+  "license": "MIT",
+  "scripts": {
+    "start": "USERNAME=YourUserName PASSWORD=YourPassword node index.js",
+    "test": "jest --watch"
+  },
+  "dependencies": {
+    "chai": "^4.2.0",
+    "eslint": "^5.10.0",
+    "eslint-plugin-jest": "^22.1.2",
+    "eslint-plugin-node": "^8.0.0",
+    "jest": "^23.6.0",
+    "moment": "^2.22.2",
+    "snoowrap": "^1.15.2"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
